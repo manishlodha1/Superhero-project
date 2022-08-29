@@ -4,11 +4,11 @@ body{
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
-    color: rgb(250, 248, 249);
+    color: rgb(7, 0, 4);
 }
 #header-top{
     background-color:midnightblue;
-    width:90%;
+    width:98%;
     background-attachment: fixed;
     display: flex;
     flex-wrap: wrap;
@@ -80,19 +80,20 @@ a:active{
 
  @media only screen and (min-width:900px){
     #header-top{
-        margin-left: 3%;
+        /* margin-left: 3%; */
         height: 4%;
         padding: 1%;
-        border-radius:50px;
-        box-shadow: 0 0 10px lightgrey;
+        border-radius:0px;
+        /* box-shadow: 0 0 10px lightgrey; */
         font-size: 1.2rem;
     }
      #container{
          position: relative;
-         width: 100%;
+         width: 98%;
          height: 90%;
          margin-top: 1%;  
          padding: 1%;
+         background-color: navajowhite;
      }
      #heading{
         text-align: center;
@@ -133,8 +134,8 @@ a:active{
         width: 300px;
         margin-top: 2%;
         height: 300px;
-        border-radius: 200px;
-        box-shadow: 0 0 50px lightgrey;
+        border-radius: 20px;
+        /* box-shadow: 0 0 50px lightgrey; */
      }
      #name-and-appearance-container{  
          width:70%;

@@ -4,7 +4,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', serif;
-    color: rgb(247, 244, 244);
+    color: rgb(5, 0, 0);
 }
 #heading{
     font-family: 'Lobster', cursive;
@@ -12,7 +12,7 @@ body{
 
 #header-top{
    background-color:midnightblue;
-   width:90%;
+   width:98%;
    background-attachment: fixed;
    display: flex;
    flex-wrap: wrap;
@@ -88,12 +88,12 @@ a:active{
 
 @media only screen and (min-width : 900px){
     #header-top{
-        margin-left: 3%;
+        /* margin-left: 3%; */
         height: 4%;
         padding: 1%;
-        border-radius:50px;
+        border-radius:0px;
         box-shadow: 0 0 10px lightgrey;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     #heading{
         font-size: 5rem;
@@ -131,7 +131,7 @@ a:active{
         justify-content: space-evenly;
         align-items: center;
         font-family: 'Ubuntu', cursive;
-        font-size: 2.0rem;
+        font-size: 1.2rem;
         font-weight: 900;
         letter-spacing: 2px;
         white-space: nowrap;
@@ -139,6 +139,7 @@ a:active{
         margin: 2%;
         width:25%;
         height : 20%;
+        background-color: navajowhite;
     }
 
     .hero-card:hover{
@@ -150,8 +151,8 @@ a:active{
         width: 150px;
         margin-top: 2%;
         height: 150px;
-        border-radius: 100px;
-        box-shadow: 0 0 50px lightgrey;
+        border-radius: 4px;
+        /* box-shadow: 0 0 50px lightgrey; */
        
     }
 
